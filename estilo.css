@@ -22,10 +22,10 @@ nav{		/*Especificidad del selector = (001)*/
 }
 nav a{		/*Especificidad del selector = (002)*/
 	margin: 20px;
-	color:white;
+	color:red;
 }
 nav a:hover{	/*Especificidad del selector = (012)*/
-	color:gray;
+	color:white;
 }
 nav a:active{	/*Especificidad del selector = (012)*/
 	color: lightgreen;
