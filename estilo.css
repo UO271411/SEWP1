@@ -1,0 +1,85 @@
+/*Elementos utilizados por primera vez por index.html*/
+body{		/*Especificidad del selector = (001)*/
+	box-sizing: border-box;
+	border: solid black 10px;
+	margin: 10px;
+	padding: 1.5% 7%;
+	background-color:#fff; 
+    color: #000;
+	font-family: Verdana, Tahoma, sans-serif;
+    line-height: 1.5;
+	word-wrap: break-word;
+}
+h1 {		/*Especificidad del selector = (001)*/
+    font-size: x-large;
+	text-align: center;
+	text-decoration: underline;
+}
+nav{		/*Especificidad del selector = (001)*/
+	text-align: center;
+	background-image: url("multimedia/wallpaper.jpg");
+}
+nav a{		/*Especificidad del selector = (002)*/
+	margin: 20px;
+	color:white;
+}
+nav a:hover{	/*Especificidad del selector = (012)*/
+	color:gray;
+}
+nav a:active{	/*Especificidad del selector = (012)*/
+	color: lightgreen;
+}
+/*Elementos utilizados por primera vez por matrix.html*/
+main img{	/*Especificidad del selector = (002)*/
+	height: 220px;
+	width: 320px;
+	margin: 0px 20px;
+}
+footer{		/*Especificidad del selector = (001)*/
+	font-size: smaller;
+	font-style: oblique;
+	line-height: 8;
+}
+footer img{	/*Especificidad del selector = (002)*/
+	height: 30px;
+	width: 35px;
+	margin:0px;
+}
+/*Elementos utilizados por primera vez por protagonistas.html*/
+main div img{	/*Especificidad del selector = (003)*/
+	margin: 20px 660px;
+}
+main div ul{	/*Especificidad del selector = (003)*/
+	margin-left: 700px;
+}
+/*Elementos utilizados por primera vez por musica.html*/
+table{			/*Especificidad del selector = (001)*/
+	border: none;
+    border-collapse: collapse;
+    border-spacing: 1px;
+	margin: 10px 15%;
+	text-align: center;
+}
+table th{		/*Especificidad del selector = (002)*/
+    background: #8B8C94; 
+	font-weight: bold;
+}
+tr.impar td{	/*Especificidad del selector = (012)*/
+    background: #E6E6E6;
+}
+tr.par td{		/*Especificidad del selector = (012)*/
+    background: #D4CFCD;
+}
+/*Elementos utilizados por primera vez por premios.html*/
+h2,h3,h4{		/*Especificidad del selector = (001)*/
+    font-size: large;
+}
+main section img{	/*Especificidad del selector = (003)*/
+	height: 300px;
+	width: 200px;
+}
+/*Elementos utilizados por primera vez por influencias.html*/
+main article img{	/*Especificidad del selector = (003)*/
+	height: 256px;
+	width: 200px;
+}

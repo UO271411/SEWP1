@@ -1,0 +1,38 @@
+body{ 	/*Especificidad del selector = (001)*/
+	display: grid;
+	grid-template-areas: 'a a a a a'
+						 'c c centro d d'
+						 'b . centro e e'
+						 'z z z z z';
+}
+nav{	/*Especificidad del selector = (001)*/
+	grid-area:centro;
+	justify-items: stretch;
+	justify-content: center;
+}
+h1{		/*Especificidad del selector = (001)*/
+	grid-area: a;
+}
+main p{		/*Especificidad del selector = (002)*/
+	grid-area: c;
+}
+main img{	/*Especificidad del selector = (002)*/
+	grid-area: d;
+	position:relative;
+	float: right;
+}
+main div ul{	/*Especificidad del selector = (003)*/
+	grid-area: centro;
+}
+main div img{	/*Especificidad del selector = (003)*/
+	grid-area: d;
+	position:relative;
+	float: right;
+}
+a{		/*Especificidad del selector = (001)*/
+	grid-area: b;
+}
+footer{	/*Especificidad del selector = (001)*/
+	grid-area: z;
+	text-align: end;
+}
