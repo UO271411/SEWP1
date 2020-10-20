@@ -42,7 +42,7 @@ footer{		/*Especificidad del selector = (001)*/
 }
 footer img{	/*Especificidad del selector = (002)*/
 	height: 30px;
-	width: 35px;
+	width: 45px;
 	margin:0px;
 }
 /*Elementos utilizados por primera vez por protagonistas.html*/
