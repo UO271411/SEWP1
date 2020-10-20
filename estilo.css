@@ -20,15 +20,7 @@ nav{		/*Especificidad del selector = (001)*/
 	font-size: large;
 	background-image: url("multimedia/wallpaper.jpg");
 }
-@media screen and (max-width: 1600px){
-	nav{
-		height: 400%;
-		font-size: larger;
-		font-weight: bolder;
-		background-image: none;
-	}
-}
-a{
+a{		/*Especificidad del selector = (001)*/
 	color:#00F9F9;
 }
 a:hover{	/*Especificidad del selector = (012)*/
@@ -95,4 +87,16 @@ main section img{	/*Especificidad del selector = (003)*/
 main article img{	/*Especificidad del selector = (003)*/
 	height: 12%;
 	width: 15%;
+}
+@media screen and (max-width: 1400px){
+	body{
+		margin: auto;
+		font-size: auto;
+		font-weight: auto;
+		height: auto;
+		width:auto;
+	}
+	nav{
+		background-image: none;
+	}
 }
