@@ -30,7 +30,7 @@ a:active{	/*Especificidad del selector = (012)*/
 	color: gray;
 }
 nav a{		/*Especificidad del selector = (002)*/
-	margin: 20px;
+	margin: auto;
 	color:white;
 }
 /*Elementos utilizados por primera vez por matrix.html*/
