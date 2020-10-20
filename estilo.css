@@ -20,15 +20,18 @@ nav{		/*Especificidad del selector = (001)*/
 	font-size: large;
 	background-image: url("multimedia/wallpaper.jpg");
 }
+a{
+	color:#00F9F9;
+}
+a:hover{	/*Especificidad del selector = (012)*/
+	color:white;
+}
+a:active{	/*Especificidad del selector = (012)*/
+	color: gray;
+}
 nav a{		/*Especificidad del selector = (002)*/
 	margin: 20px;
 	color:white;
-}
-nav a:hover{	/*Especificidad del selector = (012)*/
-	color:#515151;
-}
-nav a:active{	/*Especificidad del selector = (012)*/
-	color: gray;
 }
 /*Elementos utilizados por primera vez por matrix.html*/
 main img{	/*Especificidad del selector = (002)*/
