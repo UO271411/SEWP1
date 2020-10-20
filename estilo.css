@@ -1,8 +1,8 @@
 /*Elementos utilizados por primera vez por index.html*/
 body{		/*Especificidad del selector = (001)*/
 	box-sizing: border-box;
-	border: solid black 10px;
-	margin: 10px;
+	border: solid white 10px;
+	margin: 2%;
 	padding: 1.5% 7%;
 	background-color:black; 
     color: white;
@@ -35,9 +35,9 @@ nav a{		/*Especificidad del selector = (002)*/
 }
 /*Elementos utilizados por primera vez por matrix.html*/
 main img{	/*Especificidad del selector = (002)*/
-	height: 220px;
-	width: 320px;
-	margin: 0px 20px;
+	height: 11%;
+	width: 19%;
+	margin: 1% 4%;
 }
 footer{		/*Especificidad del selector = (001)*/
 	font-size: smaller;
@@ -45,16 +45,17 @@ footer{		/*Especificidad del selector = (001)*/
 	line-height: 8;
 }
 footer img{	/*Especificidad del selector = (002)*/
-	height: 30px;
-	width: 45px;
+	height: 1%;
+	width: 3%;
 	margin:0px;
 }
 /*Elementos utilizados por primera vez por protagonistas.html*/
 main div img{	/*Especificidad del selector = (003)*/
-	margin: 20px 660px;
+	margin: 2% 37%;
 }
 main div ul{	/*Especificidad del selector = (003)*/
-	margin-left: 700px;
+	/*margin-left: 700px;*/
+	margin-left: 45%;
 }
 /*Elementos utilizados por primera vez por musica.html*/
 table{			/*Especificidad del selector = (001)*/
@@ -65,7 +66,7 @@ table{			/*Especificidad del selector = (001)*/
 	text-align: center;
 }
 table th{		/*Especificidad del selector = (002)*/
-    background: #5D2C2C; 
+	background: #5D2C2C; 
 	font-weight: bold;
 }
 tr.impar td{	/*Especificidad del selector = (012)*/
@@ -79,11 +80,11 @@ h2,h3,h4{		/*Especificidad del selector = (001)*/
     font-size: large;
 }
 main section img{	/*Especificidad del selector = (003)*/
-	height: 300px;
-	width: 200px;
+	height: 16%;
+	width: 24%;
 }
 /*Elementos utilizados por primera vez por influencias.html*/
 main article img{	/*Especificidad del selector = (003)*/
-	height: 256px;
-	width: 200px;
+	height: 12%;
+	width: 15%;
 }
