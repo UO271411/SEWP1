@@ -25,7 +25,7 @@ nav a{		/*Especificidad del selector = (002)*/
 	color:white;
 }
 nav a:hover{	/*Especificidad del selector = (012)*/
-	color:black;
+	color:lightgray;
 }
 nav a:active{	/*Especificidad del selector = (012)*/
 	color: white;
