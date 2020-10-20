@@ -20,6 +20,14 @@ nav{		/*Especificidad del selector = (001)*/
 	font-size: large;
 	background-image: url("multimedia/wallpaper.jpg");
 }
+@media screen and (max-width: 1600px){
+	nav{
+		height: 400%;
+		font-size: larger;
+		font-weight: bolder;
+		background-image: none;
+	}
+}
 a{
 	color:#00F9F9;
 }
